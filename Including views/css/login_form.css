@@ -1,0 +1,113 @@
+/*------------------------Login Page Page Begin Here------------------------*/
+.login_wrapper {
+	margin: 0 auto;
+	width: 53%;
+	margin-top: 30px;
+}
+
+.login_popup_wrapper {
+	margin: 0 auto;
+	margin-top: 0;
+	width: 600px;
+}
+
+.login_wrapper h1, .login_popup_wrapper h1 {
+	padding: 0 20px 0 20px;
+	background: url(../images/login_header_bg.jpg) repeat-x;
+	line-height: 48px;
+	font-weight: normal;
+	color: #ffffff;
+	font-size: 24px;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	-khtml-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login_form {
+	padding: 5px;
+	border: solid 1px #b9b9b9;
+	background: #ffffff;
+	border-top: none;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-khtml-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	overflow: auto;
+}
+
+.login_form p {
+	color: #717171;
+	font-size: 14px;
+	margin: 0 0 20px 0;
+}
+
+.login_form_wrap {
+	margin: 0 auto;
+	width: 61%;
+}
+
+.login_element {
+	margin: 0 0 10px 0;
+	clear: both;
+}
+
+.login_element label {
+	color: #717171;
+	font-size: 15px;
+	float: left;
+	margin: 0 20px 10px 0;
+	line-height: 30px;
+}
+
+.login_element input[type="text"],.login_element input[type="password"]
+	{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: solid 1px #b9b9b9;
+	width: 67%;
+	padding: 7px 10px 7px 10px;
+	float: right;
+}
+
+.login_element input[type="submit"],.login_element button {
+	background: #202020 url(../images/nav-bg.jpg) repeat-x;
+	border: none;
+	padding: 10px 15px 10px 15px;
+	color: #ffffff;
+	font-size: 16px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login_element input[type="submit"]:hover,.login_element button {
+	background: #747474 url(../images/nav-hover.jpg) repeat-x;
+}
+
+.forgot_text {
+	width: 70%;
+	margin: 0 0 0 24%;
+}
+
+.forgot_text span {
+	margin: 0 0 20px 0;
+	float: left;
+}
+
+.forgot_text span a {
+	color: #007cb5;
+}
+form label.error {
+	margin: 0px;
+	width: auto;
+	padding: 0px;
+	color: #ff0000;
+	font-size: 12px;
+	display: block;
+	color: red;
+}
